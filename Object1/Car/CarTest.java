@@ -1,15 +1,6 @@
-class Car {
-    String color;
-    String gearType;
-    int door;
+package Car;
 
-    Car(){}
-    Car(String c, String g, int d){
-        color = c;
-        gearType = g;
-        door = d;
-    }
-}
+import Car.*;
 class CarTest {
     public static void main(String[] args) {
         Car c1 = new Car();
