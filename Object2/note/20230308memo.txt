@@ -1,0 +1,10 @@
+제어자(modifier)
+
+클래스와 클래스의 멤버(ex. 멤버 변수, 메서드)에 부가적인 의미 부여
+하나의 대상에 여러 제어자를 같이 사용가능(접근 제어자는 하나만)
+
+접근 제어자: public, protected, (default), private
+그 외: static, final, abstract, native, transient, synchronized...)
+
+static: 클래스의, 공통적인(전역변수 느낌)
+final: 마지막의, 변경될 수 없는(상수 느낌)
