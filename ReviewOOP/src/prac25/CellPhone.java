@@ -6,6 +6,9 @@ public class CellPhone {
     String color;
 
     //Constructor
+    public CellPhone() {
+        System.out.println("CellPhone() 호출됨");
+    }
 
     //Method
     void powerOn() { System.out.println("전원을 켭니다."); }

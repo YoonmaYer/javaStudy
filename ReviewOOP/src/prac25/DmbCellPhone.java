@@ -5,6 +5,7 @@ public class DmbCellPhone extends CellPhone {
     int channel;
     //Constructor
     DmbCellPhone(String model, String color, int channel){
+        super(); // 명시적으로 작성하지 않아도 컴파일러가 자동으로 추가해줌.
         this.model = model;
         this.color = color;
         this.channel = channel;
