@@ -19,10 +19,9 @@ public class ArrayEx2 {
         }
 
         // 배열에 저장된 값 출력
-        for (int i : iArr1) {
-            System.out.println(iArr1[i]  + ", ");
+        for (int i = 0; i < iArr1.length; i++) {
+            System.out.print(iArr1[i] + ",");
         }
-
         System.out.println();
         System.out.println(Arrays.toString(iArr2));
         System.out.println(Arrays.toString(iArr3));
@@ -30,4 +29,6 @@ public class ArrayEx2 {
         System.out.println(iArr3);
         System.out.println(chArr);
     }
+
+
 }
